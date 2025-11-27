@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Maher Lahlouh - Mobile & Web Developer Portfolio">
+    <title>Maher Lahlouh | Mobile & Web Developer</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#home" class="nav__logo">Maher Lahlouh</a>
+            
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">About</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">Skills</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#experience" class="nav__link">Experience</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#projects" class="nav__link">Projects</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#education" class="nav__link">Education</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#certificates" class="nav__link">Certificates</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">Contact</a>
+                    </li>
+                </ul>
+                <div class="nav__close" id="nav-close">
+                    <i class="fas fa-times"></i>
+                </div>
+            </div>
+            
+            <div class="nav__btns">
+                <i class="fas fa-moon change-theme" id="theme-button"></i>
+                
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__content grid">
+                    <div class="home__social">
+                        <a href="https://github.com/MaherLahlouh" target="_blank" class="home__social-icon" aria-label="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="mailto:maherlahlouh6@gmail.com" class="home__social-icon" aria-label="Email">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                        <a href="tel:+962782913566" class="home__social-icon" aria-label="Phone">
+                            <i class="fas fa-phone"></i>
+                        </a>
+                    </div>
+                    
+                    <div class="home__img">
+                        <div class="home__blob">
+                            <svg class="home__blob-shape" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.848 190.312 36.4879Z"/>
+                            </svg>
+                            <img src="images/LinkedIn Profile Photo.png" alt="Maher Lahlouh" class="home__profile-img">
+                        </div>
+                        <div class="home__blob-animation"></div>
+                    </div>
+                    
+                    <div class="home__data">
+                        <h1 class="home__title">
+                            <span class="home__title-name">Maher Lahlouh</span>
+                            <span class="home__title-profession">Mobile & Web Developer</span>
+                        </h1>
+                        <p class="home__description">
+                            Building responsive, user-centric applications across platforms with modern technologies.
+                        </p>
+                        
+                        <div class="home__buttons">
+                            <a download="Maher_Lahlouh_CV.pdf" href="pdf/Maher_Lahlouh_CV.pdf" class="button button--flex">
+                                Download CV <i class="fas fa-download button__icon"></i>
+                            </a>
+                            <a href="#contact" class="button button--flex button--ghost">
+                                Contact Me <i class="fas fa-envelope button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="home__scroll">
+                    <a href="#about" class="home__scroll-button button--flex">
+                        <i class="fas fa-mouse home__scroll-mouse"></i>
+                        <span class="home__scroll-name">Scroll down</span>
+                        <i class="fas fa-arrow-down home__scroll-arrow"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="about section" id="about">
+            <h2 class="section__title">About Me</h2>
+            <span class="section__subtitle">My introduction</span>
+            
+            <div class="about__container container grid">
+                <div class="about__data">
+                    <p class="about__description">
+                        A passionate Mobile & Web Developer with hands-on experience in Android (Java/Kotlin), Flutter, and modern web technologies. Proven ability to build responsive, user-centric applications across platforms. Skilled in Firebase, RESTful APIs, UI/UX design, and Agile workflows. Currently expanding expertise in frontend web development, integrating mobile and web solutions for seamless digital experiences. A quick learner, collaborative team player, and committed to writing clean, scalable code.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="skills section" id="skills">
+            <h2 class="section__title">Skills</h2>
+            <span class="section__subtitle">My technical level</span>
+            
+            <div class="skills__container container grid">
+                <div class="skills__content skills__open">
+                    <div class="skills__header">
+                        <i class="fas fa-code skills__icon"></i>
+                        <div>
+                            <h1 class="skills__title">Technical Skills</h1>
+                        </div>
+                        <i class="fas fa-chevron-down skills__arrow"></i>
+                    </div>
+                    
+                    <div class="skills__list grid">
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">Programming Languages</h3>
+                            </div>
+                            <div class="skills__bar">
+                                <span class="skills__percentage skills__cpp"></span>
+                            </div>
+                            <div class="skills__tags">
+                                <span class="skills__tag">C++</span>
+                                <span class="skills__tag">Java</span>
+                                <span class="skills__tag">Dart</span>
+                                <span class="skills__tag">SQL</span>
+                            </div>
+                        </div>
+                        
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">Mobile Development</h3>
+                            </div>
+                            <div class="skills__bar">
+                                <span class="skills__percentage skills__mobile"></span>
+                            </div>
+                            <div class="skills__tags">
+                                <span class="skills__tag">Flutter</span>
+                                <span class="skills__tag">Android SDK</span>
+                                <span class="skills__tag">Jetpack Compose</span>
+                            </div>
+                        </div>
+                        
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">Web Development</h3>
+                            </div>
+                            <div class="skills__bar">
+                                <span class="skills__percentage skills__web"></span>
+                            </div>
+                            <div class="skills__tags">
+                                <span class="skills__tag">HTML</span>
+                                <span class="skills__tag">CSS</span>
+                                <span class="skills__tag">JavaScript</span>
+                                <span class="skills__tag">Node.js</span>
+                            </div>
+                        </div>
+                        
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">Database</h3>
+                            </div>
+                            <div class="skills__bar">
+                                <span class="skills__percentage skills__database"></span>
+                            </div>
+                            <div class="skills__tags">
+                                <span class="skills__tag">Firebase</span>
+                                <span class="skills__tag">Firestore</span>
+                                <span class="skills__tag">Realtime Database</span>
+                                <span class="skills__tag">Authentication</span>
+                                <span class="skills__tag">Storage</span>
+                                <span class="skills__tag">SQLite</span>
+                            </div>
+                        </div>
+                        
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">Tools & Platforms</h3>
+                            </div>
+                            <div class="skills__bar">
+                                <span class="skills__percentage skills__tools"></span>
+                            </div>
+                            <div class="skills__tags">
+                                <span class="skills__tag">Android Studio</span>
+                                <span class="skills__tag">Visual Studio Code</span>
+                                <span class="skills__tag">Git</span>
+                                <span class="skills__tag">GitHub</span>
+                            </div>
+                        </div>
+                        
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">APIs & Integration</h3>
+                            </div>
+                            <div class="skills__bar">
+                                <span class="skills__percentage skills__api"></span>
+                            </div>
+                            <div class="skills__tags">
+                                <span class="skills__tag">RESTful APIs</span>
+                                <span class="skills__tag">Google Maps API</span>
+                                <span class="skills__tag">Payment Gateways</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skills__content skills__close">
+                    <div class="skills__header">
+                        <i class="fas fa-user-check skills__icon"></i>
+                        <div>
+                            <h1 class="skills__title">Soft Skills</h1>
+                        </div>
+                        <i class="fas fa-chevron-down skills__arrow"></i>
+                    </div>
+                    
+                    <div class="skills__list grid">
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">Problem-Solving & Debugging</h3>
+                            </div>
+                            <div class="skills__bar">
+                                <span class="skills__percentage skills__soft1"></span>
+                            </div>
+                        </div>
+                        
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">Agile & Scrum Methodologies</h3>
+                            </div>
+                            <div class="skills__bar">
+                                <span class="skills__percentage skills__soft2"></span>
+                            </div>
+                        </div>
+                        
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">UI/UX Optimization</h3>
+                            </div>
+                            <div class="skills__bar">
+                                <span class="skills__percentage skills__soft3"></span>
+                            </div>
+                        </div>
+                        
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">Time Management & Communication</h3>
+                            </div>
+                            <div class="skills__bar">
+                                <span class="skills__percentage skills__soft4"></span>
+                            </div>
+                        </div>
+                        
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">Adaptability & Team Collaboration</h3>
+                            </div>
+                            <div class="skills__bar">
+                                <span class="skills__percentage skills__soft5"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="experience section" id="experience">
+            <h2 class="section__title">Professional Experience</h2>
+            <span class="section__subtitle">My journey</span>
+            
+            <div class="experience__container container">
+                <div class="experience__content">
+                    <div class="experience__data">
+                        <div class="experience__header">
+                            <div>
+                                <h3 class="experience__title">Web Developer</h3>
+                                <span class="experience__subtitle">Taa Academy</span>
+                            </div>
+                            <div class="experience__location">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>Zarqa, Jordan</span>
+                            </div>
+                        </div>
+                        <div class="experience__calendar">
+                            <i class="fas fa-calendar-alt"></i>
+                            <span>08/2025 - present</span>
+                        </div>
+                        <p class="experience__description">
+                            Builds responsive apps using HTML, CSS, JavaScript, and Node.js. Writes clean, maintainable code for cross-device functionality, smooth UIs, and efficient server integration. Focuses on performance, usability, and scalability to deliver full-stack solutions.
+                        </p>
+                    </div>
+                    
+                    <div class="experience__data">
+                        <div class="experience__header">
+                            <div>
+                                <h3 class="experience__title">Flutter Development</h3>
+                                <span class="experience__subtitle">App Trainers</span>
+                            </div>
+                            <div class="experience__location">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>Amman, Jordan</span>
+                            </div>
+                        </div>
+                        <div class="experience__calendar">
+                            <i class="fas fa-calendar-alt"></i>
+                            <span>04/2025 - 06/2025</span>
+                        </div>
+                        <ul class="experience__description">
+                            <li>Developed and maintained cross-platform mobile applications using Flutter and Dart.</li>
+                            <li>Collaborated with senior developers to implement UI components and integrate RESTful APIs.</li>
+                            <li>Participated in agile sprints, contributing to real-world projects from design to deployment.</li>
+                            <li>Enhanced app performance through debugging, optimization, and state management techniques.</li>
+                            <li>Gained hands-on experience with Firebase services, including Authentication and Firestore.</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="experience__data">
+                        <div class="experience__header">
+                            <div>
+                                <h3 class="experience__title">Android Developer</h3>
+                                <span class="experience__subtitle">LeadingPoint</span>
+                            </div>
+                            <div class="experience__location">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>Amman, Jordan</span>
+                            </div>
+                        </div>
+                        <div class="experience__calendar">
+                            <i class="fas fa-calendar-alt"></i>
+                            <span>02/2024 - 05/2024</span>
+                        </div>
+                        <ul class="experience__description">
+                            <li>Completed a three-month training program in Android development.</li>
+                            <li>Gained hands-on experience in developing Android applications.</li>
+                            <li>Focused on Java and Kotlin programming languages.</li>
+                            <li>Learned best practices for mobile app design and functionality.</li>
+                            <li>Improved skills in writing efficient, maintainable code for Android platforms.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="projects section" id="projects">
+            <h2 class="section__title">Projects</h2>
+            <span class="section__subtitle">My recent work</span>
+            
+            <div class="projects__container container grid">
+                <div class="projects__content">
+                    <div class="projects__card">
+                        <div class="projects__img">
+                            <img src="images/ecommerce.png" alt="TechSpot Project">
+                            <div class="projects__modal">
+                                <div class="projects__modal-content">
+                                    <h3 class="projects__modal-title">TechSpot</h3>
+                                    <p class="projects__modal-description">
+                                        Ecommerce application for electronics.
+                                    </p>
+                                    <ul class="projects__modal-list">
+                                        <li class="projects__modal-item">
+                                            <i class="fas fa-check-circle"></i>
+                                            <p>Front end using XML files</p>
+                                        </li>
+                                        <li class="projects__modal-item">
+                                            <i class="fas fa-check-circle"></i>
+                                            <p>Backend using Java</p>
+                                        </li>
+                                        <li class="projects__modal-item">
+                                            <i class="fas fa-check-circle"></i>
+                                            <p>Firebase Realtime Database</p>
+                                        </li>
+                                        <li class="projects__modal-item">
+                                            <i class="fas fa-check-circle"></i>
+                                            <p>Firebase Authentication</p>
+                                        </li>
+                                        <li class="projects__modal-item">
+                                            <i class="fas fa-check-circle"></i>
+                                            <p>Firebase Storage</p>
+                                        </li>
+                                        <li class="projects__modal-item">
+                                            <i class="fas fa-check-circle"></i>
+                                            <p>Firebase Crashlytics</p>
+                                        </li>
+                                        <li class="projects__modal-item">
+                                            <i class="fas fa-check-circle"></i>
+                                            <p>Firebase Messaging</p>
+                                        </li>
+                                        <li class="projects__modal-item">
+                                            <i class="fas fa-check-circle"></i>
+                                            <p>Cloud Firestore</p>
+                                        </li>
+                                    </ul>
+                                    <div class="projects__modal-tags">
+                                        <span class="projects__tag">Java</span>
+                                        <span class="projects__tag">XML</span>
+                                        <span class="projects__tag">Firebase</span>
+                                        <span class="projects__tag">Android</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="projects__data">
+                            <h3 class="projects__title">TechSpot</h3>
+                            <p class="projects__description">Ecommerce application for electronics</p>
+                            <a href="#" class="projects__button">
+                                View Details <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="education section" id="education">
+            <h2 class="section__title">Education</h2>
+            <span class="section__subtitle">My academic background</span>
+            
+            <div class="education__container container">
+                <div class="education__content">
+                    <div class="education__data">
+                        <div class="education__header">
+                            <div>
+                                <h3 class="education__title">Bachelor's Degree in Computer Science</h3>
+                                <span class="education__subtitle">University Of Jordan</span>
+                            </div>
+                            <div class="education__location">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>Amman, Jordan</span>
+                            </div>
+                        </div>
+                        <div class="education__calendar">
+                            <i class="fas fa-calendar-alt"></i>
+                            <span>10/2020 - 06/2024</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="certificates section" id="certificates">
+            <h2 class="section__title">Certificates</h2>
+            <span class="section__subtitle">My certifications</span>
+            
+            <div class="certificates__container container grid">
+                <div class="certificates__content">
+                    <div class="certificates__card">
+                        <i class="fas fa-certificate certificates__icon"></i>
+                        <h3 class="certificates__title">Android App Development Master Course with Java | Android</h3>
+                    </div>
+                    
+                    <div class="certificates__card">
+                        <i class="fas fa-certificate certificates__icon"></i>
+                        <h3 class="certificates__title">The Java Learning Guide</h3>
+                    </div>
+                    
+                    <div class="certificates__card">
+                        <i class="fas fa-certificate certificates__icon"></i>
+                        <h3 class="certificates__title">SQL: From Zero to Hero - Unleash the Data Superpowers Within</h3>
+                    </div>
+                    
+                    <div class="certificates__card">
+                        <i class="fas fa-certificate certificates__icon"></i>
+                        <h3 class="certificates__title">Figma UI UX Design Essentials</h3>
+                    </div>
+                    
+                    <div class="certificates__card">
+                        <i class="fas fa-certificate certificates__icon"></i>
+                        <h3 class="certificates__title">Android Malware Analysis</h3>
+                    </div>
+                    
+                    <div class="certificates__card">
+                        <i class="fas fa-certificate certificates__icon"></i>
+                        <h3 class="certificates__title">The Kotlin Learning Guide</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact section" id="contact">
+            <h2 class="section__title">Contact Me</h2>
+            <span class="section__subtitle">Get in touch</span>
+            
+            <div class="contact__container container grid">
+                <div class="contact__content">
+                    <h3 class="contact__title">Talk to me</h3>
+                    
+                    <div class="contact__info">
+                        <div class="contact__card">
+                            <i class="fas fa-envelope contact__card-icon"></i>
+                            <h3 class="contact__card-title">Email</h3>
+                            <span class="contact__card-data">maherlahlouh6@gmail.com</span>
+                            <a href="mailto:maherlahlouh6@gmail.com" class="contact__button">
+                                Write me <i class="fas fa-arrow-right contact__button-icon"></i>
+                            </a>
+                        </div>
+                        
+                        <div class="contact__card">
+                            <i class="fas fa-phone contact__card-icon"></i>
+                            <h3 class="contact__card-title">Phone</h3>
+                            <span class="contact__card-data">+962 782913566</span>
+                            <a href="tel:+962782913566" class="contact__button">
+                                Call me <i class="fas fa-arrow-right contact__button-icon"></i>
+                            </a>
+                        </div>
+                        
+                        <div class="contact__card">
+                            <i class="fab fa-github contact__card-icon"></i>
+                            <h3 class="contact__card-title">GitHub</h3>
+                            <span class="contact__card-data">github.com/MaherLahlouh</span>
+                            <a href="https://github.com/MaherLahlouh" target="_blank" class="contact__button">
+                                Visit <i class="fas fa-arrow-right contact__button-icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__container container">
+            <h1 class="footer__title">Maher Lahlouh</h1>
+            <p class="footer__subtitle">Mobile & Web Developer</p>
+            
+            <div class="footer__social">
+                <a href="https://github.com/MaherLahlouh" target="_blank" class="footer__social-link" aria-label="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="mailto:maherlahlouh6@gmail.com" class="footer__social-link" aria-label="Email">
+                    <i class="fas fa-envelope"></i>
+                </a>
+            </div>
+            
+            <p class="footer__copy">&#169; 2025 Maher Lahlouh. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="fas fa-arrow-up scrollup__icon"></i>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
