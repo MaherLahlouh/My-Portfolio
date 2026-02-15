@@ -1014,6 +1014,13 @@ body.dark-theme .home__profile-img:hover {
 
 .projects__container {
     gap: 1.5rem;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+@media screen and (max-width: 768px) {
+    .projects__container {
+        grid-template-columns: 1fr;
+    }
 }
 
 .projects__content {
